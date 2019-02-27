@@ -7,4 +7,5 @@ printf("enter the sting");
 scanf("%d",&a);
 strrev(a);
 printf("reversed strng is %s",a);
+return 0;
 }
