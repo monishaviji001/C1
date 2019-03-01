@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 #include<string.h>
-void main()
+ int main()
 {
     char s[10];
    
