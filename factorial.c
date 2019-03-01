@@ -8,5 +8,6 @@ main()
     a=a*i;
   }
   printf("%d is %d",a,n);
+  return 0;
 }
 
