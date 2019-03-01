@@ -3,7 +3,7 @@ int main()
 {
 char a[100];
 int i;
-scanf("%d",&a);
+scanf("%c",&a);
 for(i=0;a[i]!=0;i++)
 {
 printf("%c",a[i]);
