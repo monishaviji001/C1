@@ -7,7 +7,7 @@ int main()
   {
     a=a*i;
   }
-  printf("%d",a);
+  printf("%d",a, n);
   return 0;
 }
 
