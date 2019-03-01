@@ -7,6 +7,6 @@ main()
   {
     a=a*i;
   }
-  printf("%di s %d",a,n);
+  printf("%d is %d",a,n);
 }
 
