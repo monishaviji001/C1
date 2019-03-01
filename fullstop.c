@@ -1,13 +1,10 @@
+
 #include<stdio.h>
-int main()
+#include<string.h>
+void main()
 {
-char a[100];
-int i;
-scanf("%c",&a);
-for(i=0;a[i]!=0;i++)
-{
-printf("%c",a[i]);
-}
-printf(".");
-return 0;
+    char s[10];
+   
+scanf("%s",&s);
+ printf("\n%s.",s);
 }
