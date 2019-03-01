@@ -1,12 +1,12 @@
 #include<stdio.h>
-int main()
+main()
 {
-  int i, n, a=1;
+  int i,n,a=1;
   scanf("d",&n);
   for(i=1;i<=n;i++)
   {
     a=a*i;
   }
-  printf("%d",a, n);
+  printf("%di s %d",a,n);
 }
 
