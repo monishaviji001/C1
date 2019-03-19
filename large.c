@@ -1,27 +1,19 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
-int a, b, c;
-printf("enter a,b,c");
-scanf("%d%d%D",&a,&b,&c);
-if(a>b)
+int a,b,c;
+scanf("%d  %d  %d",&a,&b,&c);
+if(a>=b && a>=c)
 {
-printf{"a is large");
+printf("%d",a);
 }
-else
+else if(b>=a && b>=c)
 {
-printf("b is large");
+printf("%d",b);
 }
-else if(b>c}
+else if(c>=a && c>=b)
 {
-printf("b is large");
-}
-else
-{
-printf("c is large");
-else
-{
-printf("c is large");
+printf("%d",c);
 }
 return 0;
 }
